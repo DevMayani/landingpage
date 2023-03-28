@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "heroicons": "^2.0.16",
+    "heroicons-react": "^1.4.1",
+    "react-router-dom": "^6.9.0",
+    "react-scroll": "^1.8.9"
+  }
+}
