@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 import './App.css';
 import Header from './components/Header/Header';
 import Handler from './components/Handler/Handler';
+import MainTwo from './components/MainTwo/MainTwo';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       <MainOne />
       <Handler classname='my-[-20px]'/>
       </div>
+      <MainTwo />
      
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
