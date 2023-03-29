@@ -17,7 +17,7 @@ function Navbar () {
 
 
   return (
-    <div className='bg-red-500 h-[100px]'> 
+    <div className='h-[100px]'> 
 
       <div className=' flex justify-between items-center md:px-[30px] py-[35px]'>
          <div className='flex justify-start items-center  w-[200px] md:w-[200px]'>
@@ -25,13 +25,13 @@ function Navbar () {
         </div>
 
         <div className='cursor-pointer'>
-          <ul className='hidden md:flex justify-around items-center gap-x-10 text-slate-700'>
-          <li className='text-sm hover:text-black'>How It Works</li>
-          <li className='text-sm hover:text-black'>Pricing</li>
-           <li className='text-sm hover:text-black'>FAQ</li>
-           <li className='text-sm hover:text-black'>Blog</li>
-           <li className='text-purple-700 text-sm hover:text-purple-900'>Sign In</li>
-           <button className='bg-purple-700 px-5 py-2 rounded-2xl text-white text-sm font-bold hover:underline'>Sign up</button>
+          <ul className='hidden md:flex justify-around items-center gap-x-10 text-slate-500'>
+          <li className='text-sm hover:text-black font-semibold'>How It Works</li>
+          <li className='text-sm hover:text-black font-semibold'>Pricing</li>
+           <li className='text-sm hover:text-black font-semibold'>FAQ</li>
+           <li className='text-sm hover:text-black font-semibold'>Blog</li>
+           <li className='text-purple-700 text-sm hover:text-purple-900 font-semibold'>Sign In</li>
+           <button className='bg-purple-700 px-5 py-2 font-semibold rounded-2xl text-white text-sm font-bold hover:underline'>Sign up</button>
           </ul>
           </div>
 

@@ -4,13 +4,18 @@ import MainOne  from './components/MainOne/MainOne'
 import Footer from './components/Footer/Footer'
 import './App.css';
 import Header from './components/Header/Header';
+import Handler from './components/Handler/Handler';
 
 function App() {
   return (
-    <div>
+    <div className=''>
       <Header />
       <Navbar />
-      {/* <MainOne /> */}
+      <div className='bg-purple-600'>
+      <MainOne />
+      <Handler classname='my-[-20px]'/>
+      </div>
+     
       {/* <Footer /> */}
     </div>
   );
