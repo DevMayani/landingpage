@@ -9,7 +9,12 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline';
 
 
 function Navbar () {
+ 
+  const toggleNav = () => {
+    setIsOpen(!isOpen);
+  };
 
+  const [isOpen, setIsOpen] = useState(false);
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
 
