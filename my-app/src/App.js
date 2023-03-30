@@ -7,8 +7,11 @@ import Header from './components/Header/Header';
 import Handler from './components/Handler/Handler';
 import MainTwo from './components/MainTwo/MainTwo';
 import Down from './assets/downloadone.png';
+import Downnew from './assets/iconback.png';
 import Faq from './components/Faq'
 import Boxc from './components/Boxc';
+import { IoIosArrowBack,IoIosArrowForward} from 'react-icons/io';
+
 
 function App() {
 
@@ -28,10 +31,11 @@ function App() {
 
       <div className='w-[90%]  bg-purple-600  drop-shadow-2xl rounded-xl md:w-[80%] min-h-[200px] m-auto '> 
        <h1 className=' p-5 m-auto text-center font-bold mt-10 md: text-white text-xl'>What our customer are sayin</h1>
-       <hr className='w-[10%] mt-[10px] m-auto' />
+       <hr className='w-[10%] mt-[1px] decoration-8 m-auto' />
        <center className='m-auto p-10  flex justify-between items-center '>
-        <img src={Down} alt='pic' className='w-[7%] md:w-[3%]' />
-        <img src={Down} alt='pic' className='w-[7%] md:w-[3%]' />
+       
+        <IoIosArrowBack className='text-white w-[7%] md:w-[3%]'/>
+        <IoIosArrowForward className='text-white w-[7%] md:w-[3%]'/>
        </center>
        
       </div>

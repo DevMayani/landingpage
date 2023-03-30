@@ -118,7 +118,7 @@ function MainTwo () {
         </div>
         </div>
         
-        <div className=''>
+        <div >
             <p className='font-light text-center md:text-xl '>
                 Extra.Live helps you manage Streams efficienly. <br className='md:hidden'/>
                 Schedule and post planning, live streaming, statictics, <br className='md:hidden'/>
